@@ -6,7 +6,6 @@ interface ISurvivalSection {
   children: ReactNode;
   index: number;
 }
-
 export const SurvivalSection: FC<ISurvivalSection> = ({
   img,
   children,

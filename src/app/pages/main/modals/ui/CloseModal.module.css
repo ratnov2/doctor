@@ -1,0 +1,18 @@
+.closeModal {
+  position: absolute;
+  top: -14px;
+  right: -10px;
+  background-color: red;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  color: rgb(246, 246, 246);
+  font-weight: 700;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+.closeModal:hover {
+  transform: scale(1.15);
+}

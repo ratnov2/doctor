@@ -1,0 +1,40 @@
+.hoblType {
+  background: linear-gradient(90deg, #fbfdff 0%, #d8efff 100.86%);
+  box-shadow: 0px 0px 25px 0px #8ea0ad59;
+  text-align: center;
+  width: 32%;
+  padding: 30px 5px;
+  border-radius: 20px;
+}
+
+.hoblType .svgContent {
+  position: relative;
+  margin: auto;
+  margin-bottom: 55px;
+  width: fit-content;
+}
+.hoblType .svgContent .number {
+  position: absolute;
+  right: -50px;
+  bottom: -40px;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(90deg, #fdd966 0%, #bcd77e 68.54%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  font-size: 48px;
+  font-weight: 700;
+}
+.hoblType > h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.hoblType > h3 strong {
+  font-weight: 700;
+}
+.hoblType > p {
+  font-size: 24px;
+  line-height: 33px;
+}

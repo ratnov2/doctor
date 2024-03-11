@@ -1,0 +1,12 @@
+.hobbleInfo {
+  padding: 30px 40px;
+  background: linear-gradient(90deg, #fbfdff 0%, #d8efff 100.86%);
+  box-shadow: 0px 0px 25px 0px #8ea0ad59;
+  border-radius: 20px;
+  margin-top: 22px;
+  flex: 1;
+}
+.hobbleInfo > p {
+  font-size: 24px;
+  line-height: 33px;
+}

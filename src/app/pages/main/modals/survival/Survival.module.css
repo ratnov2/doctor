@@ -1,0 +1,46 @@
+.survival {
+  margin: 40px;
+}
+.survival > p {
+  font-size: 24px;
+  line-height: 32.69px;
+}
+.survival > p:first-child {
+  margin-bottom: 9px;
+}
+.survival > p > strong {
+  font-weight: 700;
+}
+.survival > h3 {
+  text-align: center;
+  margin: 40px 0;
+  font-weight: 700;
+  font-size: 30px;
+}
+.survival .survivalSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  text-align: center;
+}
+.text > h4 {
+  font-size: 96px;
+  line-height: 130.75px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.text > p {
+  font-size: 26px;
+  line-height: 35px;
+  margin-bottom: 15px;
+}
+.text > p > strong {
+  font-weight: 700;
+}
+.text > span {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+}

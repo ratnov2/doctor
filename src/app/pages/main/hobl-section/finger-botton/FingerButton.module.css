@@ -1,0 +1,18 @@
+.fingerButton {
+  border-radius: 100%;
+  width: 48.26px;
+  height: 48.26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.1s ease-in-out;
+}
+.fingerButton:hover {
+  transform: scale(1.15);
+}
+.fingerButton.blue {
+  background: #01457a;
+}
+.fingerButton.green {
+  background: #bcd77e;
+}

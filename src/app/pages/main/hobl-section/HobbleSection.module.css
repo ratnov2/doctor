@@ -1,0 +1,71 @@
+.section {
+  position: relative;
+  border: 1px solid #01457a;
+  box-shadow: 0px 0px 25px 0px #8ea0ad59;
+  padding: 40px 29px 40px 38px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.section .personSvg {
+  background: linear-gradient(90deg, #fdd966 0%, #bcd77e 68.54%);
+  padding: 20px;
+  margin-right: 29px;
+  border-radius: 0 100% 100% 100%;
+}
+
+.section .mainInfo {
+  position: relative;
+  margin-right: 29px;
+}
+.section .mainInfo .bgGradient {
+  clip-path: polygon(255px 0%, 100% 50px, 256px 100%, 0 100%, 0 0);
+  background: linear-gradient(270deg, #d8efff 0%, #ffffff 100%);
+  width: 295px;
+  height: 113px;
+}
+.section .mainInfo .arrowSvg {
+  position: absolute;
+  top: -1px;
+}
+.section .mainInfo .info {
+  position: absolute;
+  top: 0;
+  width: calc(100% - 34px);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.section .addInfo {
+  color: #01457a;
+  max-width: 767px;
+  position: relative;
+}
+.section .addInfo p {
+  color: #01457a;
+  max-width: 767px;
+  position: relative;
+  line-height: 32.69px;
+  max-width: 75%;
+}
+
+.section .addInfo .bgGradientText {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  position: absolute;
+  width: 100%;
+  height: 44px;
+  bottom: 0;
+}
+
+.section .fingerButton {
+  position: absolute;
+  right: -23.26px;
+  top: -23.26px;
+}

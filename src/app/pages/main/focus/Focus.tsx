@@ -22,8 +22,8 @@ export const Focus = () => {
         {WithPower("ХОБЛ", "1")}:
       </h3>
       <div className={style.hobleTypes}>
-        {[<Text1 />, <Text2 />, <Text3 />].map((el, key) => (
-          <HoblType Text={el} index={key + 1} key={key} />
+        {FokucData.map((el, key) => (
+          <HoblType Text={el.text} index={key + 1} key={el.id} />
         ))}
       </div>
       <div className={style.doubleArrowSvg}>
@@ -88,3 +88,14 @@ const Text3 = () => (
     </p>
   </>
 );
+const FokucData = [
+  {
+    text: <Text1 />,
+    id: "1",
+  },
+  {
+    text: <Text2 />,
+    id: "2",
+  },
+  { text: <Text3 />, id: "3" },
+];
